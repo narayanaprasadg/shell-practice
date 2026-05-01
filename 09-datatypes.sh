@@ -11,3 +11,4 @@ echo "all the leaders are : ${LEADERS}"
 echo "All the leaders are : ${LEADERS[@]}"
 echo "First leader is : ${LEADERS[0]}"
 echo " Second leader is : ${LEADERS[1]}"
+echo "size of the array is : ${LEADERS[size]}
