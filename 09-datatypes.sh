@@ -7,9 +7,8 @@ SUM=$(($NUMBER1+$NUMBER2+$NAME))
 echo "sum is : $SUM"
 
 LEADERS=("MODI" "PUTIN" "TRUDO" "TRUMP")
-echo "all the leaders are : ${LEADERS}"
+
 echo "All the leaders are : ${LEADERS[@]}"
 echo " leaders count : ${#LEADERS[@]}"
 echo "First leader is : ${LEADERS[0]}"
 echo " Second leader is : ${LEADERS[1]}"
-echo "size of the array is : ${length[LEADERS]}"
