@@ -7,6 +7,6 @@ echo " cirrent directory : $PWD"
 echo " who is running this : $USER"
 echo " howm directory of user : $HOME"
 echo " PID of the script : $$"
-sleep 50
+sleep 50 &
 echo " PID of the last command in back ground is : $!"
 
