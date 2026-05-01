@@ -2,6 +2,8 @@
 
 echo " All the variables passed to the script : $*"
 echo " All the variables passed to the script : $@"
+echo " first variables passed to the script : $1"
+echo " second variables passed to the script : $2"
 echo " script name : $0"
 echo " cirrent directory : $PWD"
 echo " who is running this : $USER"
