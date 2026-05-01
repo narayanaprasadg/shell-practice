@@ -6,7 +6,7 @@ NAME=PRASAD
 SUM=$(($NUMBER1+$NUMBER2+$NAME))
 echo "sum is : $SUM"
 
-LEADERS=("MODI","PUTIN","TRUDO","TRUMP")
+LEADERS=("MODI" "PUTIN" "TRUDO" "TRUMP")
 echo "all the leaders are : ${LEADERS}"
 echo "All the leaders are : ${LEADERS[@]}"
 echo "First leader is : ${LEADERS[0]}"
